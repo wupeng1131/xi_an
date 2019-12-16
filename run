@@ -1,0 +1,1 @@
+python ./main_F.py --data_url ../train_data/new_train_val_1000 --train_url ../log012 --deploy_script_path ./deploy_scripts --arch resnext101_32x8d --num_classes 54 --workers 4 --epochs 100 --pretrained True --seed 0  --batch-size 16  --lr 0.01 --optim SGD --loss CUT --decay_epoch 1 -p 5 --beta 1.0 --cutmix_prob 1.0

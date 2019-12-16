@@ -1,0 +1,1 @@
+python prepare_data.py --input_dir '../train_data/train_data' --output_train_dir '../train_data/train_val_1000/train' --output_val_dir '../train_data/train_val_1000/val'
